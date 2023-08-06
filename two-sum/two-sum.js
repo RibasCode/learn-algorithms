@@ -1,8 +1,5 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
+
+'use strict' // https://leetcode.com/problems/two-sum/
 
 // Case 1
 let nums = [2,7,11,15];
@@ -19,8 +16,11 @@ let target = 9;
 // Així estas comparant tots amb tots menos amb els mateix index
 
 var twoSum = function(nums, target) {
+
     for(let i = 0; i < nums.length; i++){
+
         for(let y = 0; y < nums.length; y++){
+            
             if (i === y) { continue; };
             if(nums[i] + nums[y] === target){
                 return [i, y];

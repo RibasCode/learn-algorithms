@@ -1,7 +1,5 @@
-/**
- * @param {number} x
- * @return {boolean}
- */
+
+'use strict' // https://leetcode.com/problems/two-sum/
 
 // Case 1
 let x = 121;
@@ -12,10 +10,9 @@ let x = 121;
 // Case 3
 // let x = 10;
 
-
 let isPalindrome = function(x) {
     
-    let word = x.toString();
+    let word = x.toString().toLowerCase();
     let wordLength = word.length - 1; // - 1 perqué el 0 en un array també el compte
     let reversedWord = '';
 
@@ -23,10 +20,10 @@ let isPalindrome = function(x) {
         reversedWord += word[i];
     }
 
-    // if(word === reversedWord) return true
-    // if(word !== reversedWord) return false
+    // if(word === reversedWord) return true;
+    // if(word !== reversedWord) return false;
     
-    return word === reversedWord
+    return word === reversedWord; // millor retornar true o false, d'aquesta manera
 };
 
 isPalindrome(x); 
