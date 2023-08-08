@@ -1,5 +1,5 @@
 
-'use strict' // https://leetcode.com/problems/two-sum/
+'use strict' // https://leetcode.com/problems/palindrome-number/
 
 // Case 1
 let x = 121;
