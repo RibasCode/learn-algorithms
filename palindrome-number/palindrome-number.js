@@ -12,7 +12,7 @@
 
 let x = 'Race car';
 
-let isPalindrome = function(param) {
+const isPalindrome = function(param) {
     
     let word = param.toString().toLowerCase().replace(/\W/g, '');
 
