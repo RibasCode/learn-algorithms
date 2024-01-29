@@ -1,8 +1,8 @@
-'use strict'
+"use strict"
 
 function isPalindrome(str){
     
-    str = str.replace(/\W/g, '');
+    str = str.replace(/\W/g, "");
     str = str.toLowerCase();
     
     for(let i = 0; i < str.length; i++){
@@ -20,10 +20,10 @@ function isPalindrome(str){
 
 
 
-let string1 = 'Eye';
+let string1 = "Eye";
 console.log(string1);
 console.log(isPalindrome(string1));
 
-string1 = 'Oastrao';
+string1 = "Oastrao";
 console.log(string1);
 console.log(isPalindrome(string1));

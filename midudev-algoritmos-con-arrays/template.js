@@ -1,5 +1,5 @@
 
-'use strict' // https://www.aprendejavascript.dev/clase/arrays/algoritmos
+"use strict" // https://www.aprendejavascript.dev/clase/arrays/algoritmos
 
 // En una biblioteca queremos saber qué libro es el que menos páginas tiene y el que más páginas. Por suerte, no hay dos libros con el mismo número de páginas.
 

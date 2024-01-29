@@ -1,5 +1,5 @@
 
-'use strict' // https://leetcode.com/problems/palindrome-number/solutions/3341636/javascript-100-easy-explanation-overall-o-1-space/
+"use strict" // https://leetcode.com/problems/palindrome-number/solutions/3341636/javascript-100-easy-explanation-overall-o-1-space/
 
 // Case 1
 let x = 121;

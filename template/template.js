@@ -1,5 +1,5 @@
 
-'use strict' // https://leetcode.com/problems/template/
+"use strict" // https://leetcode.com/problems/template/
 
 // Case 1
 
