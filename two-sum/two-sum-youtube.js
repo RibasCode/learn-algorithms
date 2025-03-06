@@ -2,7 +2,7 @@
 'use strict' // https://leetcode.com/problems/two-sum/
 
 // Case 1
-let nums = [2,7,11, ];
+let nums = [2,7,11,15];
 let target = 9;
 
 // Case 2
