@@ -15,15 +15,15 @@ let target = 9;
 
 // Així estas comparant tots amb tots menos amb els mateix index
 
-var twoSum = function(nums, target) {
+let twoSum = function(nums, target) {
 
     for(let i = 0; i < nums.length; i++){
 
-        for(let y = 0; y < nums.length; y++){
+        for(let j = 0; j < nums.length; y++){
             
-            if (i === y) { continue; };
-            if(nums[i] + nums[y] === target){
-                return [i, y];
+            if (i === j) { continue; };
+            if(nums[i] + nums[j] === target){
+                return [i, j];
             }
         }
     }
