@@ -22,10 +22,10 @@ function twoSum(nums, target) {
         for (let j = i + 1; j < nums.length; j++) {
             
             if (nums[i] + nums[j] === target) {
-                return [i, j];
+                return [i, j]
             }
         }
     }
 }
 
-console.log(twoSum(nums, target));
+console.log(twoSum(nums, target))
