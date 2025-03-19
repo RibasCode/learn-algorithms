@@ -10,16 +10,18 @@ let x = 121
 // Case 3
 // let x = 10
 
-function isPalindrome(x) {
-  let word = x.toString();
-  let wordLength = word.length - 1;
-  let reversedWord = '';
+function isPalindrome(input) {
+  const str = input.toString().toLowerCase().replace(/\s+/g, '');
+  // return str === str.split('').reverse().join('');
 
-  for(let i = wordLength; i >= 0; i--){
-    reversedWord += word[i];
+  let strLength = str.length - 1;
+  let reversedStr = '';
+
+  for(let i = strLength; i >= 0; i--){
+    reversedStr += str[i];
   }
 
-  return word === reversedWord
+  return str === reversedStr
 }
 
 console.log(isPalindrome(x))
