@@ -1,18 +1,19 @@
 
-'use sict' // https://leetcode.com/problems/roman-to-integer
+'use sict' // https://leetcode.com/problems/longest-common-prefix
 
 // Case 1
-//Input: s = "III"
-//Output: 3
-//Explanation: III = 3.
+// Input: strs = ["flower","flow","flight"]
+// Output: "fl"
 
 // Case 2
-// Input: s = "LVIII"
-// Output: 58
-// Explanation: L = 50, V= 5, III = 3.
+// Input: strs = ["dog","racecar","car"]
+// Output: ""
+// Explanation: There is no common prefix among the input strings.
 
-// Case 3
-// Input: s = "MCMXCIV"
-// Output: 1994
-// Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+strs = ["flower","flow","flight"]
 
+var longestCommonPrefix = function(strs) {
+    
+};
+
+longestCommonPrefix(strs)
