@@ -13,7 +13,18 @@
 strs = ["flower","flow","flight"]
 
 var longestCommonPrefix = function(strs) {
-    
+  let prefix = ""
+
+  for(let i = 0; i < strs.length; i++) {
+    let char = strs[0][i]
+
+    for(let j = 0; j < strs[i].length; j++) {
+      if(char === strs[i][j]) {
+        prefix += char      
+      }  
+    }
+  }
+  return prefix
 };
 
 longestCommonPrefix(strs)
